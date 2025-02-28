@@ -22,7 +22,7 @@
             font-style: normal;
         }
     </style>
-    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body class="w-[96%] mx-auto poppins">
@@ -40,7 +40,7 @@
                     <div class="items-center">
                         <img class="w-8 h-8" src="assets/checkbox.png" alt="">
                     </div>
-                    <h1 class="text-2xl">23</h1>
+                    <h1 id="right-count" class="text-2xl">23</h1>
                 </button>
 
                 <button class="btn btn-square  bg-[#F4F7FF] ml-8 rounded-full">
@@ -63,19 +63,19 @@
                 <!-- Upper Part -->
                 <div class="grid grid-cols-4 gap-4 roundex-2xl mb-4">
                     <!-- Start Card -->
-                    <div class="h-[128px] rounded-xl bg-[#F4F7FF] flex justify-center items-center">
+                    <div class="h-[128px] rounded-xl bg-[#F4F7FF] flex justify-center items-center ">
                         <div class="w-12 h-12 rounded-full bg-white flex justify-center items-center"><img
                                 src="assets/checkbox.png" alt=""></div>
                         <div>
                             <h3 class="text-base">Task Asigned</h3>
-                            <h1 class="font-bold text-2xl text-center">05</h1>
+                            <h1 id="left-count" class="font-bold text-2xl text-center">6</h1>
                         </div>
                     </div>
                     <!-- Middle Card -->
                     <div
                         class="h-[128px] rounded-xl col-span-2 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] flex justify-start px-8 items-center gap-8">
                         <div class=""><img src="assets/board.png" alt=""></div>
-                        <h1 class="text-white text-xl">Discover Something <br> New Today!</h1>
+                        <h1 class="text-white text-lg">Discover Something <br> New Today!</h1>
                     </div>
                     <!-- End Card -->
                     <div class="h-[128px] rounded-xl bg-[#F4F7FF] flex justify-center items-center gap-4">
@@ -100,7 +100,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">ShopEase</button>
-                            <h1 class="py-4 font-semibold text-md">Fix Mobile Button Issue </h1>
+                            <h1 class="py-4 font-semibold text-md" id="fix-mobile work-title">Fix Mobile Button Issue </h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Debug using Chrome DevTools, check for overlapping...</p>
                             </div>
@@ -110,7 +110,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">CloudSync</button>
-                            <h1 class="py-4 font-semibold text-md">Add Dark Mode</h1>
+                            <h1 class="py-4 font-semibold text-md work-title">Add Dark Mode</h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Store the user's preference in localStorage, update...</p>
                             </div>
@@ -129,7 +129,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">SwiftPay</button>
-                            <h1 class="py-4 font-semibold text-md">Optimize Home page</h1>
+                            <h1 class="py-4 font-semibold text-md work-title">Optimize Home page</h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Debug using Chrome DevTools, check for overlapping...</p>
                             </div>
@@ -148,7 +148,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">Meta</button>
-                            <h1 class="py-4 font-semibold text-md">Add new emoji 🤲</h1>
+                            <h1 class="py-4 font-semibold text-md work-title">Add new emoji 🤲</h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Debug using Chrome DevTools, check for overlapping...</p>
                             </div>
@@ -167,7 +167,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +176,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">Google LLC</button>
-                            <h1 class="py-4 font-semibold text-md">Integrate OpenAI API </h1>
+                            <h1 class="py-4 font-semibold text-md work-title">Integrate OpenAI API </h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Debug using Chrome DevTools, check for overlapping...</p>
                             </div>
@@ -186,7 +186,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,7 @@
                     <div class="card bg-[#F4F7FF] ">
                         <div class="p-3">
                             <button class="bg-white p-3 rounded-xl">Glassdoar</button>
-                            <h1 class="py-4 font-semibold text-md">Improve Job searching</h1>
+                            <h1 class="py-4 font-semibold text-md work-title">Improve Job searching</h1>
                             <div class="bg-white rounded-xl">
                                 <p class="text-sm p-3 ">Debug using Chrome DevTools, check for overlapping...</p>
                             </div>
@@ -205,7 +205,7 @@
                                     <h3>21 March 2025</h3>
                                 </div>
                                 <div>
-                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white">Completed</button>
+                                    <button class="bg-[#3752FD] px-2 py-2 rounded-lg text-white working-button">Completed</button>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Right Div -->
         <div class="w-3/12  bg-white rounded-xl">
             <div class="flex justify-center items-center gap-4 ">
@@ -222,16 +221,20 @@
             </div>
             <div class="flex justify-center">
                 
-                    <button class="bg-[#3752FD] p-2 mb-4 rounded-lg text-white">Completed</button>
+                    <button id="activity-completed" class="bg-[#3752FD] p-2 mb-4 rounded-lg text-white">Completed</button>
                 
             </div>
 
             <div class="border border-dashed border-slate-200"></div>
+            <div id="activity-div">
+                <!-- <h1 class="bg-[#F4F7FF] p-4 m-4 text-sm rounded-xl"></h1> -->
+            </div>
         </div>
+        
 
     </section>
 
-
+    <script src="JavaScript/main.js"></script>
     <script src="JavaScript/dateTime.js"></script>
 </body>
 
