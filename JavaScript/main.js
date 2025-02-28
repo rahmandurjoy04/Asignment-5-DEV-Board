@@ -59,4 +59,17 @@ document.getElementById('activity-completed').addEventListener('click',function 
     const container = document.getElementById('activity-div');
     container.innerHTML='';
     
+});
+
+// Generating Random BG color
+document.getElementById('bg-changing').addEventListener('click',function(){
+    const red =Math.floor(Math.random()*256);
+    const green =Math.floor(Math.random()*256);
+    const blue =Math.floor(Math.random()*256);
+    const randomBG=`rgb(${red},${green},${blue})`
+
+    // Changing the full html color
+    document.getElementById('main-body').style.backgroundColor=randomBG;
+
+
 })
