@@ -32,11 +32,11 @@ for(let i = 0; i < workButtons.length;i++){
 
 
             
-
+            let dT = new Date();
             const container = document.getElementById('activity-div');
             const div =document.createElement('div');
             div.innerHTML=`
-            <h1 class="bg-[#F4F7FF] p-4 m-4 text-sm rounded-xl">You Have completed the task "<span class="font-bold">${workTitleInnerText}</span>" at ${hour}:${minute}:${second} ${period}</h1>`
+            <h1 class="bg-[#F4F7FF] p-4 m-4 text-sm rounded-xl">You Have completed the task "<span class="font-bold">${workTitleInnerText}</span>" at ${hour}:${dT.getMinutes()}:${dT.getSeconds()} ${period}</h1>`
             // container.appendChild(div)
             container.insertBefore(div, container.firstChild);
             

@@ -1,12 +1,16 @@
 
-// Adding the time
-
+// Adding the AM / PM
 const dateTimeToday = new Date();
 let hour = dateTimeToday.getHours();
-const minute = dateTimeToday.getMinutes();
-const second = dateTimeToday.getSeconds();
 const period = hour >= 12 ? 'PM' : 'AM';
 hour = hour % 12 || 12;
+if(hour % 12 ===0){
+    hour = 12;
+}
+else{
+    hour = hour % 12;
+}
+console.log(hour);
 
 // console.log(hour, minute, second, period)
 
