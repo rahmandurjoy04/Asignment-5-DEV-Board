@@ -10,7 +10,7 @@ for(let i = 0; i < workButtons.length;i++){
     workBtn.addEventListener('click',function(event){
         event.preventDefault();
         const workTitle = document.getElementsByClassName('work-title');
-        const workTitleInnerText=workTitle[0].innerText;
+        const workTitleInnerText=workTitle[i].innerText;
        
         
         if(!workBtn.disabled === true){
