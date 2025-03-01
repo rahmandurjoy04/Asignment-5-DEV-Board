@@ -47,11 +47,6 @@ for(let i = 0; i < workButtons.length;i++){
         }
 
         
-
-
-        // console.log(workBtn)
-        // console.log(typeof workBtn)
-        
     })
 }
 // Clearing the Activity Log
@@ -72,4 +67,13 @@ document.getElementById('bg-changing').addEventListener('click',function(){
     document.getElementById('main-body').style.backgroundColor=randomBG;
 
 
-})
+});
+
+// Making the middle Card Work
+document.getElementById('middle-card').addEventListener('click',function(){
+
+    window.location.href='blogs.html';
+});
+
+// redirect to Home
+document.getElementById()
