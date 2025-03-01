@@ -50,14 +50,16 @@ for(let i = 0; i < workButtons.length;i++){
     })
 }
 // Clearing the Activity Log
-document.getElementById('activity-completed').addEventListener('click',function () {
+document.getElementById('activity-completed').addEventListener('click',function (event) {
+    event.preventDefault();
     const container = document.getElementById('activity-div');
     container.innerHTML='';
     
 });
 
 // Generating Random BG color
-document.getElementById('bg-changing').addEventListener('click',function(){
+document.getElementById('bg-changing').addEventListener('click',function(event){
+    event.preventDefault();
     const red =Math.floor(Math.random()*256);
     const green =Math.floor(Math.random()*256);
     const blue =Math.floor(Math.random()*256);
@@ -70,7 +72,8 @@ document.getElementById('bg-changing').addEventListener('click',function(){
 });
 
 // Making the middle Card Work
-document.getElementById('middle-card').addEventListener('click',function(){
+document.getElementById('middle-card').addEventListener('click',function(event){
+    event.preventDefault();
 
     window.location.href='blogs.html';
 });
