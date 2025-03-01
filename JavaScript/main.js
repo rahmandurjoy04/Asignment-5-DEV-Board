@@ -74,6 +74,3 @@ document.getElementById('middle-card').addEventListener('click',function(){
 
     window.location.href='blogs.html';
 });
-
-// redirect to Home
-document.getElementById()
